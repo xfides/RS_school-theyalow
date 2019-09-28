@@ -1,0 +1,308 @@
+@media all and (max-width: 1300px) {
+
+  /* --- COMMON STYLES --- */
+  .container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  /* --- TOP = HEADER + PROMO --- */
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .nav__link {
+    flex-grow: 1
+  }
+
+  .slider {
+    padding-left: 0;
+  }
+
+  .slide {
+    flex-wrap: wrap;
+  }
+
+  .slide__wrap-video {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 313px;
+    min-height: 313px;
+    max-height: 313px;
+  }
+
+  .slide__title {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    width: 100%;
+  }
+
+  /* Features */
+  .features__block {
+    width: 50%;
+  }
+
+  .features__title {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  /* Media */
+  .m-slide__body {
+    flex-wrap: wrap;
+  }
+
+  .m-slide__wrap-main {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .m-slide__info {
+    width: 50%;
+    max-width: 50%;
+  }
+
+  .m-slide__wrap-video {
+    width: 50%;
+    max-width: 50%;
+  }
+
+  .m-social {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .m-slide__wrap-date {
+    display: none;
+  }
+
+  /* Scopes */
+  .scopes {
+
+    background-image: none;
+  }
+
+  .scopes__title {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+
+  .scopes-list {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .scopes__stock {
+    display: none;
+  }
+
+}
+
+@media all and (max-width: 640px) {
+
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* --- TOP = HEADER + PROMO --- */
+  .wrap-top {
+    background-image: none;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .header__block_wrap-title {
+    width: 25%;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 0;
+  }
+
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+  }
+
+  .logo-title {
+    font-size: 19px;
+    line-height: 24px;
+    padding-top: 5px;
+    padding-left: 8px;
+  }
+
+  .nav {
+    width: 75%;
+    box-shadow: none;
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+
+  .nav__link {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    flex-grow: inherit;
+  }
+
+  .nav__link_about-us {
+    min-width: 172px;
+  }
+
+  .nav__link_services {
+    padding-right: 9px;
+    min-width: 133px;
+  }
+
+  .nav__link_contact {
+    min-width: 149px;
+  }
+
+  .nav-icon {
+    width: 29px;
+    height: 24px;
+    line-height: 24px;
+  }
+
+  .slider {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .slide__title {
+    display: none;
+  }
+
+  .slide__wrap-video {
+    height: 326px;
+    min-height: 326px;
+    max-height: 326px;
+  }
+
+  .video-control__start {
+    left: 8px;
+  }
+
+  .slider-controls {
+    display: none;
+  }
+
+  /* Features */
+  .wrap-features {
+    box-shadow: 0 0 2px 6px rgba(255, 255, 255, 0.5);
+  }
+
+  .features__block {
+    width: 33.33%;
+    padding-top: 29px;
+    padding-bottom: 30px;
+    border: 0;
+  }
+
+  .features__title {
+    letter-spacing: 1px;
+    padding-top: 13px;
+  }
+
+  .features__wrap-svg_download {
+    left: -18px;
+    top: 0;
+    width: 92px;
+    height: 63px;
+  }
+
+  .features__title_download {
+    padding-left: 0;
+    padding-right: 22px;
+  }
+
+  .features__wrap-svg_leaf {
+
+    left: 9px;
+    top: 0;
+    width: 71px;
+    height: 69px;
+  }
+
+  .features__title_leaf {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+
+  .features__wrap-svg_flying {
+    height: 69px;
+    width: 68px;
+    top: 0;
+    left: -3px;
+  }
+
+  .features__title_flying {
+    padding-right: 0;
+    padding-left: 4px;
+  }
+
+  /* Media */
+  .wrap-media {
+    background-image: none;
+    background-color: #ffffff;
+    padding-bottom: 0;
+  }
+
+  .m-slide__wrap-main {
+    justify-content: space-between;
+  }
+
+  .m-slide__wrap-main {
+    padding: 9px;
+    margin: 0;
+  }
+
+  .m-slide__title {
+    display: none;
+  }
+
+  .m-slide__body {
+    padding-bottom: 0;
+  }
+
+  .m-slide__info {
+    padding-left: 29px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+    line-height: 33px;
+    width: 48%;
+  }
+
+  .m-slide__wrap-video {
+    width: 51%;
+    max-width: 314px;
+  }
+
+  .m-slider__controls {
+    display: none;
+  }
+
+  /* Scopes */
+
+}

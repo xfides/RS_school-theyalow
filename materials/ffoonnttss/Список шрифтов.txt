@@ -1,0 +1,17 @@
+SegoeWP Regular      +
+SegoeWP Light        +
+---
+Segoe UI Regular     +
+Segoe UI Bold        +
+Segoe UI Light       +
+---
+Lucida Sans Italic   +
+---
+Asap Regular         +
+---
+PTSans Regular       +
+PTSans NarrowBold    +
+---
+OpenSans Regular     +
+---
+Arial Regular        +

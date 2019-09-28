@@ -1,0 +1,14 @@
+{
+  "name": "theyalow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "comb": "csscomb ./assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "csscomb": "^4.3.0"
+  }
+}
