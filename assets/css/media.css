@@ -223,6 +223,7 @@
   .features__title {
     letter-spacing: 1px;
     padding-top: 13px;
+    font-size: 21px;
   }
 
   .features__wrap-svg_download {
@@ -307,6 +308,7 @@
     padding-right: 32px;
     padding-left: 32px;
     padding-bottom: 10px;
+    background-color: #f5c507;
   }
 
   .m-social__wrap-svg {
@@ -425,9 +427,6 @@
     padding-right:0;
   }
 
-
-
-
   .m-slider__controls {
     display: none;
   }
@@ -435,8 +434,15 @@
   /* Scopes */
   .scopes {
     background-image: url(../images/comp.png);
-    background-position: 57px 159px;
-    min-height: 470px;
+    background-position: 57px 156px;
+    min-height: 467px;
+  }
+
+  .scopes__title{
+    padding-top: 29px;
+    margin-left: -10px;
+    font-family: 'open_sansregular', 'Arial', sans-serif;
+    font-size: 39px;
   }
 
   .scopes-list {
@@ -445,11 +451,18 @@
 
   .scopes__stock {
     display: block;
-    top: 118px;
+    top: 115px;
     left: 27px;
   }
 
   /* --- FOOTER STYLES --- */
+
+  .footer{
+    padding-left: 66px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+  }
 
   .logo-icon_footer{
     width: 30px;
@@ -458,6 +471,9 @@
     min-height: 30px;
   }
 
+  .logo-title_footer{
+    font-size: 17px;
+  }
 
 }
 
