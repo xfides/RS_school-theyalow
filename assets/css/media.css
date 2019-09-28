@@ -299,10 +299,60 @@
     max-width: 314px;
   }
 
+  .m-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .m-social__wrap-svg {
+    width: 45%;
+  }
+
+  .m-social__wrap-svg .svg-icon {
+    padding-left: 42px;
+  }
+
+  .m-social-chat {
+    width: 45%;
+  }
+
+  .m-social__number-msg {
+    display: none;
+  }
+
+  .more {
+    display: none;
+  }
+
   .m-slider__controls {
     display: none;
   }
 
   /* Scopes */
+  .scopes {
+    background-image: url(../images/comp.png);
+    background-position: 57px 159px;
+    min-height: 470px;
+  }
+
+  .scopes-list {
+    display: none;
+  }
+
+  .scopes__stock {
+    display: block;
+    top: 118px;
+    left: 27px;
+  }
+
+  /* --- FOOTER STYLES --- */
+
+  .logo-icon_footer{
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+  }
 
 }
